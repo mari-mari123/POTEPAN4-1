@@ -31,8 +31,8 @@
           </td>
           <td><%= simple_time(post.updated_at) %></td>
           <td><%= link_to "確認", post %></td>
-          <td><%= link_to "編集", edit_post_path(@posts.ids) %></td>
-          <td><%= link_to "削除", post_path(@posts.ids), method: :delete, data: {confirm: "本当に削除しますか？"}  %></td>
+          <td><%= link_to "編集", [:edit, post] %></td>
+          <td><%= link_to "削除", post, method: :delete, data: {confirm: "本当に削除しますか？"}  %></td>
         </tr>
       </tbody>
     <% end %>
