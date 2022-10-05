@@ -1,0 +1,91 @@
+.main_container {
+  margin: 50px 15px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+
+header, footer {
+  width: 100%;
+  background-color: #c52f24;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+table {
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+
+th,td{
+  border:1px black solid;
+  padding: 10px 20px;
+}
+
+table th {
+  background-color: #ffdfdf;
+}
+
+table td {
+  background-color: #f1c8c861;
+  text-align: center;
+}
+
+input[type=submit] {
+  width: auto;
+}
+
+input, pre {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+ul li {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 16px 0px;
+}
+
+.posts-content {
+  width: 350px;
+  height: 200px;
+  font-size: 16px;
+}
+
+.alert-delete, .alert-failure {
+  background-color: #ec98ac8f;
+  border: 2px solid #ec7592;
+}
+
+.alert-success {
+  background-color: #98ecaa7a;
+  border: 2px solid #5cd075;
+}
+
+.alert {
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+}
+
